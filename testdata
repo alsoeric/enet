@@ -1,0 +1,11 @@
+exposition ignored
+
+:name
+line 1
+line 2
+:name
+should be ignored
+:name2
+xxx 1
+xxx 2
+xxx 3

@@ -1,0 +1,73 @@
+For every generated a config file, there are two source files. The first is raw template pieces. The second is the program to process the templates into a configuration file.
+
+Breaking down the components.
+
+Temple storage:
+
+The raw template pieces are stored in a .ctmpl file. The extension stands for
+colon template. It's called that because it's a simplistic expression of
+a dictionary holding multiline blocks of texts. There is no interpolation
+or any fancy processing. The format is incredibly simple.
+
+:tree definition    <--- definition of colon name, names following text block.
+this is a tree      <--- start of block
+it has leaves       +
+it has bark         +
+but no bite         +
+                    +
+:flower             <--- end of block and starts definition of next one
+...
+
+A colon as the first character in the line marks the start of the block of
+text to be captured. The name immediately adjacent to the colon is the key
+for the dictionary. This name is also known as a colon name or colon key.
+The block of text ends at the start of the next colon name.
+
+The block of text between the two: names is literally captured. All blank
+lines all special characters everything is taken verbatim and stored
+in a dictionary.
+
+However, if the next colon name is the same as used at the start, the
+text between the ending: name and the next colon name is ignored so you
+can use that for expository comments about the template. The region before
+the the first colon name is similarly ignored and can be used for a comment
+preamble.
+
+Example of what this looks like:
+
+This template file contains a series of templates for trees flowers
+and other plants.
+
+:tree definition    <--- definition of colon name, names following text block.
+this is a tree      <--- start of block
+it has leaves       +
+it has bark         +
+but no bite         +
+                    +
+:tree definition    <--- end of block and start of ignored region
+
+The next section is about flowers. They are pretty and I'm sure I
+will say a lot more about them in the body of the section.
+
+:flower             <--- end of ignored region and start of next block
+...
+
+Template processing
+
+Template files marked substitution variables in one of two ways.
+$name
+${name}
+
+The first form is the lazy speech recognition users form. You just say
+"dollar sign" name and you get $name. This form is useful when the name
+is set off from all of the text by spaces. The second form is when you want
+to have a substitution variable in a block of text for example: ${name}house.
+By using different values of name like "boat", "tree" you would generate
+"boathouse" and "treehouse".
+
+Use $$ if you want a $ in your text.
+
+Substitution variables can contain templates with substitution variables
+and yes, it is recursive.
+
+More examples on how to drive the template generator later
