@@ -18,14 +18,18 @@ with open("event_template.rtmpl") as f:
 common_dict = rTemplate.colon_parser("event_common", EOL=False)
 
 event_dict = {}
+nonevent_dict = {}
 
 for event_filename in events:
     template_dict = rTemplate.colon_parser(event_filename, starter_dict=common_dict, EOL=False)
     #print(template_dict["gtla"])
     tstruct = time.strptime(template_dict["date"],"%Y %B %d")
     event_key = time.strftime("%Y-%m-%d", tstruct) + template_dict["gtla"]
-    event_dict[event_key] = template_dict.copy()
-    k = event_key
+    if template_dict["skip"] == "no":
+        event_dict[event_key] = template_dict.copy()
+    else:
+        nonevent_dict[event_key] = template_dict.copy()
+    #k = event_key
     # print(k)
     # print(event_dict[k]["group_name"])
     # print(event_dict[k]["gtla"])
@@ -40,12 +44,19 @@ for event_filename in events:
     #print(k)
     #pp.pprint(event_dict[k])
 
+print("<b>Events This Month</b><br>")
 for k in sorted(event_dict):
-
     print("<a href={}>{} ({})</a> [{}]<br>".format(event_dict[k]["group_url"],
-                                event_dict[k]["group_name"],
-                                event_dict[k]["gtla"],
-                                event_dict[k]["date"] ))
+        event_dict[k]["group_name"],
+        event_dict[k]["gtla"],
+        event_dict[k]["date"] ))
+
+print("<br><br><b>No Events This Month</b><br>")
+for k in sorted(nonevent_dict):
+    print("<a href={}>{} ({})</a> [{}]<br>".format(nonevent_dict[k]["group_url"],
+        nonevent_dict[k]["group_name"],
+        nonevent_dict[k]["gtla"],
+        "" ))
 
 for k in sorted(event_dict):
     event_final=rTemplate.rTemplate(event_template, identifiers=event_dict[k])

@@ -1,3 +1,6 @@
+:skip
+yes
+:skip
 :group_name
 IEEE Boston Consultants' Network
 :group_url
@@ -9,7 +12,7 @@ Tools to Publish What You Write
 :date
 2019 February 26
 :time
-6:30 p.m.- 8:30 p.m.
+6:30 p.m. - 8:30 p.m.
 :location
 $constant_contact_location
 :price
