@@ -1,15 +1,18 @@
+:event_month
+April
+:event_month
+
+:event_year
+2019
+:event_year
+
+:Brandeis_faculty_club_location
+Brandeis University Faculty Club, 415 South Street, Waltham, MA
+:Brandeis_faculty_club_location
 
 :constant_contact_location
 Constant Contact, Great Room South, 1601 Trapelo Road, Waltham, MA
 :constant_contact_location
-
-:ms_location
-Microsoft Store, 75 Middlesex Turnpike, Burlington, MA
-:ms_location
-closing tag needed to kill of unneeded EOL
-:ms_nerd_location
-Microsoft NERD Center, 1 Memorial Drive, Cambridge, MA
-:ms_nerd_location
 
 :first_republic_bank
 First Republic Bank, 160 Federal Street, Boston, MA
@@ -19,46 +22,46 @@ First Republic Bank, 160 Federal Street, Boston, MA
 Greater Good Imperial Brewing Company, 55 Millbrook Street, Worcester, MA
 :ggibc_location
 
-:wcti_location
-Worcester CleanTech Incubator (WCTI), 44 Portland Street, Worcester, MA
-:wcti_location
+:jobcase_location
+JobeCase Suite 7, 201 Broadway, Cambridge, MA
+:jobcase_location
 
-:Brandeis_faculty_club_location
-Brandeis University Faculty Club, 415 South Street, Waltham, MA
-:Brandeis_faculty_club_location
+:mendix_location
+Mendix, 22 Boston Wharf Rd, Boston, MA
+:mendix_location
+
+:ms_location
+Microsoft Store, 75 Middlesex Turnpike, Burlington, MA
+:ms_location
+
+:ms_nerd_location
+Microsoft NERD Center, 1 Memorial Drive, Cambridge, MA
+:ms_nerd_location
 
 :regis_college
 Regis College, Fine Arts Center, 235 Wellesley St, Weston, MA
 :regis_college
 
-:sneef_location1
-UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St. Fall River, MA
-:sneef_location1
+:umass_dartmouth_location
+UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St., Fall River, MA
+:umass_dartmouth_location
 
-:jobcase_location
-JobeCase Suite 7, 201 Broadway, Cambridge, MA
-:jobcase_location
+:umass_innovation_hub_location
+ UMass Lowell's Innovation Hub, 110 Canal Street, Lowell, MA
+:umass_innovation_hub_location
+
+:wcti_location
+Worcester CleanTech Incubator (WCTI), 44 Portland Street, Worcester, MA
+:wcti_location
+
+:wpi_campus_center_location
+Rubin Campus Center, 100 Institute Road, Worcester MA
+:wpi_campus_center_location
 
 :sneef_price
 SNEEF Member Free, General Attendee $$20,
 SNEEF Alliance Partner Member $$15 (MDG, CCTC, ENET, etc.)
 :sneef_price
-
-:vf_price
-Nonmember $$15, Student Advance Registration Required or $$5 Fee for Student
-Walk-ins. RSVP by noon Monday prior to the event.
-:vf_price
-
-:mdg_price
-Member/Alliance Partner $$30, Nonmember $$45, Student (Member) $$10,
-Student (Nonmember) $$15, Gold Member No Charge
-:mdg_price
-
-:bnt_price
-$$15 (Price increases to $$30 during last 48 hours) or save on tickets and enjoy
-exclusive benefits with a <a href=http://bit.ly/bNtvip>BNT VIP Membership</a>. For all
-ticket options, visit <a href=http://bit.ly/BNT94>Eventbrite</a>.
-:bnt_price
 
 :bnt_15
 $$15 per person

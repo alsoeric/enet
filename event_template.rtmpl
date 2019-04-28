@@ -5,8 +5,6 @@ Title: $title<br>
 Date: $date<br>
 Time: $time<br>
 Location: $location<br>
-Price: $price<br>
-<br>
-Description: $description<br>
-<br>
+Price: $price
+<p>Description: $description
 For more information and to register: <a href=$group_url>$group_name<br>

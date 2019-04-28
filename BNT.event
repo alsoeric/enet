@@ -1,32 +1,41 @@
 :skip
 no
 :skip
+:bnt_eventbright
+http://bostonnewtechnology.eventbrite.com/?utm_source=BostonENET&utm_campaign=BostonENET&aff=BostonENET
+:bnt_eventbright
+
 :group_name
 Boston New Technology Meetup Group
 :group_url
-http://www.meetup.com/Boston_New_Technology/
+$bnt_eventbright
 :gtla
 BNT
+:bnt_vip
+https://bostonnewtechnology.com/membership/?utm_source=BostonENET&utm_campaign=BostonENET
+:bnt_price
+$$15 (Price increases to $$30 during last 48 hours) or save on tickets and enjoy
+exclusive benefits with a <a href=$bnt_vip>VIP Membership</a>. For all ticket options, visit <a href=$bnt_eventbright>Eventbrite</a>.
 :title
-Boston New Technology FinTech & Blockchain Startup Showcase #BNT99 (21+)
+Boston New Technology FinTech & Blockchain Startup Showcase #BNT100 (21+)
 :date
-2019 March 18
+2019 April 23
 :time
-6:00 p.m. - 9:00 p.m.
+5:30 p.m. - 9:30 p.m.
 :location
 $ms_nerd_location
 :price
 $bnt_price
 :description
-Join us to: <br>
-- See 7 innovative and exciting local FinTech & Blockchain technology demos. Each company presents an overview and
-demonstration of their product within 5 minutes and discusses questions
-with the audience.
-<br>
-- Network with attendees from the Boston-area startup/tech community<br>
-- Enjoy dinner with beer, wine and more<br>
-Please follow @BostonNewTech and support our startups by posting on social media using our #BNT99 hashtag. We'll retweet you!
-<br>
-To save on tickets and enjoy exclusive benefits, purchase a <a href=http://bit.ly/bNtvip>BNT VIP
-Membership</a>.
+Join us to:
+<ul>
+<li>See 7 innovative and exciting local IoT & AI technology demos, presented by startup founders.</li>
+<li>Hear a keynote on the future of tech and short talks about the Boston startup community from special guests</li>
+<li>Network with attendees from the Boston-area startup/tech community</li>
+<li>Enjoy dinner with beer, wine and more</li>
+</ul>
+</p>
+<p>Please follow @BostonNewTech and support our startups by posting on social media using our #BNT100 hashtag. We'll retweet you and you'll be entered to win one of ten sets of BNT shirts & hats, courtesy of <a href=http://bit.ly/BNTInkd>Ink'd Stores</a>!<br><br>
+To save on tickets and enjoy exclusive benefits, purchase a <a href=$bnt_vip>BNT VIP
+Membership</a></p>
 :description

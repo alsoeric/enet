@@ -27,38 +27,31 @@ for event_filename in events:
     event_key = time.strftime("%Y-%m-%d", tstruct) + template_dict["gtla"]
     if template_dict["skip"] == "no":
         event_dict[event_key] = template_dict.copy()
-    else:
+    elif template_dict["skip"] == "yes":
         nonevent_dict[event_key] = template_dict.copy()
-    #k = event_key
-    # print(k)
-    # print(event_dict[k]["group_name"])
-    # print(event_dict[k]["gtla"])
-    # print(event_dict[k]["date"])
-    # print()
-    # print("{} ({}) [{}]".format(event_dict[k]["group_name"],
-    #                             event_dict[k]["gtla"],
-    #                             event_dict[k]["date"] ))
-    #
-    #print(event_dict[event_key]["gtla"])
 
-    #print(k)
-    #pp.pprint(event_dict[k])
-
+import sys
+import pprint
+pd=pprint.PrettyPrinter(indent=4, stream=sys.stderr)
 print("<b>Events This Month</b><br>")
 for k in sorted(event_dict):
-    print("<a href={}>{} ({})</a> [{}]<br>".format(event_dict[k]["group_url"],
-        event_dict[k]["group_name"],
-        event_dict[k]["gtla"],
-        event_dict[k]["date"] ))
+    event_list_template="<a href=$group_url>$group_name ($gtla)</a> [$date]<br>"
+    event_list=rTemplate.rTemplate(event_list_template,
+                                   identifiers=event_dict[k])
+    print(event_list.last_pass_cleanup(event_list.substitute()))
+    #print("----------------------------", file=sys.stderr)
+    #pd.pprint(event_dict)
 
 print("<br><br><b>No Events This Month</b><br>")
 for k in sorted(nonevent_dict):
-    print("<a href={}>{} ({})</a> [{}]<br>".format(nonevent_dict[k]["group_url"],
-        nonevent_dict[k]["group_name"],
-        nonevent_dict[k]["gtla"],
-        "" ))
+    event_list_template="<a href=$group_url>$group_name ($gtla)</a> []<br>"
+    event_list=rTemplate.rTemplate(event_list_template,
+                                   identifiers=nonevent_dict[k])
+    print(event_list.last_pass_cleanup(event_list.substitute()))
 
 for k in sorted(event_dict):
     event_final=rTemplate.rTemplate(event_template, identifiers=event_dict[k])
     print("<br><br><br>")
     print(event_final.last_pass_cleanup(event_final.substitute()),)
+
+# footer
