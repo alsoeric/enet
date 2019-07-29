@@ -1,10 +1,50 @@
 :event_month
-April
+June
 :event_month
 
 :event_year
 2019
 :event_year
+
+:date
+$event_year $event_month $event_day
+:date
+
+:4pm
+4:00 PM
+:4pm
+
+:530pm
+5:30 PM
+:530pm
+
+:6pm
+6:00 PM
+:6pm
+
+:630pm
+6:30 PM
+:630pm
+
+:7pm
+7:00 PM
+:7pm
+
+:8pm
+8:00 PM
+:8pm
+
+:830pm
+8:30 PM
+:830pm
+
+:9pm
+9:00 PM
+:9pm
+
+:930pm
+9:30 PM
+:930pm
 
 :Brandeis_faculty_club_location
 Brandeis University Faculty Club, 415 South Street, Waltham, MA
@@ -18,6 +58,10 @@ Constant Contact, Great Room South, 1601 Trapelo Road, Waltham, MA
 First Republic Bank, 160 Federal Street, Boston, MA
 :first_republic_bank
 
+:foley_hoag
+Foley Hoag, LLP, 155 Seaport Blvd, Boston, MA
+:foley_hoag
+
 :ggibc_location
 Greater Good Imperial Brewing Company, 55 Millbrook Street, Worcester, MA
 :ggibc_location
@@ -25,6 +69,10 @@ Greater Good Imperial Brewing Company, 55 Millbrook Street, Worcester, MA
 :jobcase_location
 JobeCase Suite 7, 201 Broadway, Cambridge, MA
 :jobcase_location
+
+:lawrence_partnership
+Lawrence Partnership, 46 Stafford Street, Lawrence, MA
+:lawrence_partnership
 
 :mendix_location
 Mendix, 22 Boston Wharf Rd, Boston, MA
@@ -46,6 +94,10 @@ Regis College, Fine Arts Center, 235 Wellesley St, Weston, MA
 UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St., Fall River, MA
 :umass_dartmouth_location
 
+:charlton_cob_location
+Charlton College of Business, 285 Old Westport Rd, North Dartmouth, MA (Parking Lot 14)
+:charlton_cob_location
+
 :umass_innovation_hub_location
  UMass Lowell's Innovation Hub, 110 Canal Street, Lowell, MA
 :umass_innovation_hub_location
@@ -54,14 +106,21 @@ UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St., Fal
 Worcester CleanTech Incubator (WCTI), 44 Portland Street, Worcester, MA
 :wcti_location
 
+:nmf_location
+Nutter McClennen &amp; Fish LLP, 155 Seaport Blvd, Boston, MA
+:nmf_location
+
 :wpi_campus_center_location
-Rubin Campus Center, 100 Institute Road, Worcester MA
+Rubin Campus Center, 100 Institute Road, Worcester, MA
 :wpi_campus_center_location
 
-:sneef_price
-SNEEF Member Free, General Attendee $$20,
-SNEEF Alliance Partner Member $$15 (MDG, CCTC, ENET, etc.)
-:sneef_price
+:thelma_burns_location
+Thelma D. Burns Building, 575 Warren Street, Dorchester, MA
+:thelma_burns_location
+
+:hult_international_location
+Hult International Business School, 1 Education Street, Cambridge, MA
+:hult_international_location
 
 :bnt_15
 $$15 per person

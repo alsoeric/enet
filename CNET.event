@@ -1,5 +1,5 @@
 :skip
-no
+yes
 :skip
 :group_name
 IEEE Boston Consultants' Network
@@ -9,8 +9,12 @@ http://www.boston-consult.org/
 CNET
 :title
 Everything You Wanted to Know About Consulting but Were Afraid to Ask
-:date
-2019 April 23
+:event_day
+23
+:time_start
+$630pm
+:time_end
+$830pm
 :time
 6:30 p.m. - 8:30 p.m.
 :location

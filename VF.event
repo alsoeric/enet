@@ -1,5 +1,5 @@
 :skip
-no
+yes
 :skip
 :group_name
 The Venture Forum
@@ -16,10 +16,12 @@ Walk-ins. TVF Members & Sponsors RSVP by noon Monday prior to the event.
 
 :title
 5 Minute Pitch
-:date
-2019 April 23
-:time
-5:00 p.m. - 8:30 p.m.
+:event_day
+19
+:time_start
+$4pm
+:time_end
+$7pm
 :location
 $wpi_campus_center_location
 :price
@@ -30,5 +32,4 @@ This is The Venture Forum's 13th Annual 5-Minute Pitch Contest. It has been incr
 Eight (8) companies chosen by our first round judges will have exactly 5 minutes to pitch for the audience and judges, and 5 minutes to answer judges' questions. In addition, the room will have approximately 20 other businesses displaying their ideas in an Innovation Showcase before the event and during networking time.<br>
 </p><p>
 Deadline for applications to pitch was February 28th. Applications are being evaluated by first round judging and will receive coaching/mentoring prior to the event.  All applicants are eligible to participate in the Innovation Showcase April 23 during the event.<br>
-</p>
 :description

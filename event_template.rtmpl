@@ -1,10 +1,10 @@
 
-<a href=$group_url>$group_name</a> ($gtla)<br>
-<br>
+<p style="margin-top: 3em;"><a href="$group_url" target="_blank">$group_name</a> ($gtla)</p>
 Title: $title<br>
 Date: $date<br>
-Time: $time<br>
+Time: $time_start - $time_end<br>
 Location: $location<br>
 Price: $price
 <p>Description: $description
-For more information and to register: <a href=$group_url>$group_name<br>
+</p>
+<p>For more information and to register: <a href="$group_url">$group_name</a></p>

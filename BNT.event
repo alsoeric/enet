@@ -2,7 +2,7 @@
 no
 :skip
 :bnt_eventbright
-http://bostonnewtechnology.eventbrite.com/?utm_source=BostonENET&utm_campaign=BostonENET&aff=BostonENET
+https://bostonnewtechnology.eventbrite.com/?utm_source=BostonENET&amp;utm_campaign=BostonENET&amp;aff=BostonENET
 :bnt_eventbright
 
 :group_name
@@ -12,30 +12,30 @@ $bnt_eventbright
 :gtla
 BNT
 :bnt_vip
-https://bostonnewtechnology.com/membership/?utm_source=BostonENET&utm_campaign=BostonENET
+https://bostonnewtechnology.com/membership/?utm_source=BostonENET&amp;utm_campaign=BostonENET
 :bnt_price
 $$15 (Price increases to $$30 during last 48 hours) or save on tickets and enjoy
-exclusive benefits with a <a href=$bnt_vip>VIP Membership</a>. For all ticket options, visit <a href=$bnt_eventbright>Eventbrite</a>.
+exclusive benefits with a <a href="$bnt_vip">BNT VIP Membership</a>. For all ticket options, visit <a href="$bnt_eventbright">Eventbrite</a>.
 :title
-Boston New Technology FinTech & Blockchain Startup Showcase #BNT100 (21+)
-:date
-2019 April 23
-:time
-5:30 p.m. - 9:30 p.m.
+Boston New Technology HealthTech Startup Showcase #BNT102
+:event_day
+10
+:time_start
+$6pm
+:time_end
+$9pm
 :location
 $ms_nerd_location
 :price
 $bnt_price
 :description
-Join us to:
-<ul>
-<li>See 7 innovative and exciting local IoT & AI technology demos, presented by startup founders.</li>
-<li>Hear a keynote on the future of tech and short talks about the Boston startup community from special guests</li>
-<li>Network with attendees from the Boston-area startup/tech community</li>
-<li>Enjoy dinner with beer, wine and more</li>
-</ul>
-</p>
-<p>Please follow @BostonNewTech and support our startups by posting on social media using our #BNT100 hashtag. We'll retweet you and you'll be entered to win one of ten sets of BNT shirts & hats, courtesy of <a href=http://bit.ly/BNTInkd>Ink'd Stores</a>!<br><br>
-To save on tickets and enjoy exclusive benefits, purchase a <a href=$bnt_vip>BNT VIP
-Membership</a></p>
+21+. Join us to see innovative and exciting local HealthTech product demos,
+presented by startup founders, network with attendees from the Boston-area
+startup/tech community, get your free headshot photo (non-intrusively
+watermarked) from The Boston Headshot, and enjoy dinner with beer, wine and more
+Each company presents an overview and demonstration of their product within 5
+minutes and discusses questions with the audience. Please follow @BostonNewTech
+and support our startups by posting on social media using our #BNT102 hashtag.
+We'll retweet you and you'll be entered to win one of ten sets of BNT
+shirts &amp; hats, courtesy of <a href="http://bit.ly/BNTInkd">Ink'd Stores</a>!
 :description

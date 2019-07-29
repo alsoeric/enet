@@ -1,6 +1,20 @@
 :skip
 no
 :skip
+
+price changes from even to event, put different price templates here
+:sneef_price_usual
+SNEEF Member Free, General Attendee $$20,
+SNEEF Alliance Partner Member $$15 (MDG, CCTC, ENET, etc.)
+:sneef_price_usual
+
+:sneef_price_network
+SNEEF Member $$30,
+SNEEF Alliance Partner Member $$30 (MDG, CCTC, ENET, 128ICG, The Venture Forum, EntreTech Forum),
+Faculty, Student $$30,
+Nonmember $$35
+:sneef_price_network
+
 :group_name
 Southern New England Entrepreneurs Forum
 :group_url
@@ -8,20 +22,18 @@ http://sneef.org/
 :gtla
 SNEEF
 :title
-Cleantech Open 2019
-:date
-2019 April 14
-:time
-5:30 p.m. - 8:00 p.m.
+2019 Summer Networking
+:event_day
+13
+:time_start
+$530pm
+:time_end
+$830pm
 :location
 $umass_dartmouth_location
 :price
-$sneef_price
+$sneef_price_network
 :description
-Please join us in celebrating the launch of the 2019 Cleantech Open accelerator!</p>
-
-<p>We welcome all entrepreneurs, students, investors, savvy technologists, and anyone interested in joining our growing cleantech innovation community. This is a great way to connect with Cleantech Open alumni, mentors, and thought leaders in the cleantech space.
-
-<p>If you're a cleantech entrepreneur, this is the perfect event to learn how your venture can benefit from Cleantech Open. You will have the opportunity to give a 1-minute pitch. The crowd favorite will win a free application to the 2019 Cleantech Open accelerator!
-<a href="https://www.eventbrite.com/e/cleantech-open-kickoff-party-on-the-south-coast-of-ma-tickets-57614158499">Register here then select your ticket type</a>. (Note: SNEEF and other partners co-organize this event. You must RSVP using the provided link, not via the usual SNEEF platform.)</p>
+Our annual summer networking event is a fixture of the entrepreneur's networking schedule in Southeastern Massachusetts. Join us for delicious food and lively networking with great people!
+<b>Please note that there is a fee for everyone, including members, at this event. Reservations needed by June 7th!</b>
 :description

@@ -116,6 +116,11 @@ class rTemplate(object):
         return body.replace('$$','$')
 
 
+def quick_rt(template, identifiers):
+    rtpl=rTemplate(template,identifiers=identifiers)
+    x = rtpl.last_pass_cleanup(rtpl.substitute())
+    return x
+
 # The goal of this module is to read a file and create a dictionary. The format
 # of the file is:
 #:name
