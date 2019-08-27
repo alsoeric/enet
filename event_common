@@ -1,5 +1,5 @@
 :event_month
-June
+July
 :event_month
 
 :event_year
@@ -54,6 +54,10 @@ Brandeis University Faculty Club, 415 South Street, Waltham, MA
 Constant Contact, Great Room South, 1601 Trapelo Road, Waltham, MA
 :constant_contact_location
 
+:district_hall_location
+District Hall, 75 Northern Avenue, Boston, MA
+:district_hall_location
+
 :first_republic_bank
 First Republic Bank, 160 Federal Street, Boston, MA
 :first_republic_bank
@@ -86,9 +90,13 @@ Microsoft Store, 75 Middlesex Turnpike, Burlington, MA
 Microsoft NERD Center, 1 Memorial Drive, Cambridge, MA
 :ms_nerd_location
 
-:regis_college
+:regis_college_location
 Regis College, Fine Arts Center, 235 Wellesley St, Weston, MA
-:regis_college
+:regis_college_location
+
+:solidworks_location
+Dassault Systemes / Solidworks, 185 Wyman St, Waltham, MA
+:solidworks_location
 
 :umass_dartmouth_location
 UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St., Fall River, MA
