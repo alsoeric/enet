@@ -1,5 +1,5 @@
 :skip
-no
+$bnt_skip
 :skip
 :bnt_eventbright
 https://bostonnewtechnology.eventbrite.com/?utm_source=BostonENET&amp;utm_campaign=BostonENET&amp;aff=BostonENET
@@ -15,27 +15,29 @@ BNT
 https://bostonnewtechnology.com/membership/?utm_source=BostonENET&amp;utm_campaign=BostonENET
 :bnt_price
 $$15 (Price increases to $$30 during last 48 hours) or save on tickets and enjoy
-exclusive benefits with a <a href="$bnt_vip">BNT VIP Membership</a>. For all ticket options, visit <a href="$bnt_eventbright">Eventbrite</a>.
+exclusive benefits with a <a href="$bnt_vip">BNT VIP Membership</a>. For all
+ticket options, visit <a href="$bnt_eventbright">Eventbrite</a>.
 :title
-Boston New Technology CleanTech, GreenTech and Energy Startup Showcase #BNT104
+$bnt_title
+:title
 :event_day
-19
+$bnt_day
 :time_start
 $6pm
 :time_end
 $9pm
 :location
-$solidworks
+$bnt_location
 :price
 $bnt_price
 :description
-21+. Join us to See innovative and exciting local CleanTech, GreenTech and
-Energy tech demos, presented by startup founders, network with attendees
-from the Boston-area startup/tech community, get your free headshot photo (non-intrusively
-watermarked) from The Boston Headshot, and enjoy pizza, beer, wine and more.
+$bnt_description
 Each company presents an overview and demonstration of their product within 5
 minutes and discusses questions with the audience. Please follow @BostonNewTech
-and support our startups by posting on social media using our #BNT104 hashtag.
-We'll retweet you and you'll be entered to win one of ten sets of BNT
-shirts &amp; hats, courtesy of <a href="http://bit.ly/BNTInkd">Ink'd Stores</a>!
+and support our startups by posting on social media using our #BNT$bnt_number hashtag.
+Get your free headshot photo (non-intrusively watermarked) from The Boston Headshot!
+
+$bnt_food
+
+$bnt_special
 :description

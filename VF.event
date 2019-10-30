@@ -1,5 +1,5 @@
 :skip
-yes
+no
 :skip
 :group_name
 The Venture Forum
@@ -8,28 +8,24 @@ https://www.theventureforum.org/
 :gtla
 VF
 :glta
-
-:vf_price
-Nonmember $$25, Student Advance Registration Required or $$5 Fee for Student
-Walk-ins. TVF Members & Sponsors RSVP by noon Monday prior to the event.
-:vf_price
-
 :title
-5 Minute Pitch
+$vf_title
 :event_day
-19
+10
 :time_start
-$4pm
+$6pm
 :time_end
-$7pm
+$8pm
 :location
 $wpi_campus_center_location
 :price
 $vf_price
 :description
-This is The Venture Forum's 13th Annual 5-Minute Pitch Contest. It has been incredibly powerful in getting startups the outlet that they need to advance their business to the next level. In the last 5 years, three 5-Minute Pitch CEOs have been chosen by Forbes magazine as their "30 Under 30" award recipients.<br>
-</p><p>
-Eight (8) companies chosen by our first round judges will have exactly 5 minutes to pitch for the audience and judges, and 5 minutes to answer judges' questions. In addition, the room will have approximately 20 other businesses displaying their ideas in an Innovation Showcase before the event and during networking time.<br>
-</p><p>
-Deadline for applications to pitch was February 28th. Applications are being evaluated by first round judging and will receive coaching/mentoring prior to the event.  All applicants are eligible to participate in the Innovation Showcase April 23 during the event.<br>
+Culture, creativity and connectivity are the heartbeat and soul of all great
+entrepreneurial ecosystems. The Venture Forum has facilitated all of those
+for nearly 30 years. Join our dedicated sponsors, members and speakers and
+help spark entrepreneurship and innovation in one of the hottest ecosystems
+in the Northeast! How? Start by attending the September 10, 2019 kickoff
+event, Understanding Private and Public Funding Sources.
+</p>
 :description

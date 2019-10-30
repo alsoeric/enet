@@ -1,5 +1,5 @@
 :skip
-no
+$mdg_skip
 :skip
 :group_name
 Medical Development Group
@@ -10,29 +10,23 @@ MDG
 :gtla
 
 :mdg_price
-Member/Alliance Partner $$30, Nonmember $$45, Student (Member) $$10,
-Student (Nonmember) $$15, Gold Member No Charge
+Member/Alliance Partner $$35, Nonmember $$45, Student (Member) $$10,
+Student (Nonmember) $$15, Regis Alumni $$25, Gold Member No Charge
 :mdg_price
 
 :title
-Transitioning Into and Within the Medical Device Industry
+$mdg_title
 :title
-note: month entry should be deleted for september entry
-:event_month
-July
 :event_day
-31
+$mdg_day
 :time_start
 $530pm
 :time_end
 $830pm
 :location
-$regis_college_location
+$mdg_location
 :price
 $mdg_price
 :description
-This networking event for medical jobs is for people who are looking to
-transition Into or within the Medical Device Industry. At this popular
-annual networking event, hear from our diverse set of panelists who
-successfully transitioned to find new roles and positions in their careers.
+$mdg_description
 :description

@@ -1,39 +1,25 @@
 :skip
-yes
+no
 :skip
 
-price changes from even to event, put different price templates here
-:sneef_price_usual
-SNEEF Member Free, General Attendee $$20,
-SNEEF Alliance Partner Member $$15 (MDG, CCTC, ENET, etc.)
-:sneef_price_usual
-
-:sneef_price_network
-SNEEF Member $$30,
-SNEEF Alliance Partner Member $$30 (MDG, CCTC, ENET, 128ICG, The Venture Forum, EntreTech Forum),
-Faculty, Student $$30,
-Nonmember $$35
-:sneef_price_network
-
 :group_name
-Southern New England Entrepreneurs Forum
+South Coast Entrepreneurs Collaborative
 :group_url
-http://sneef.org/
+https://socoeco.org/
 :gtla
-SNEEF
+SoCoECo
 :title
-2019 Summer Networking
+$socoeco_title
 :event_day
-13
+$socoeco_day
 :time_start
 $530pm
 :time_end
-$830pm
+$8pm
 :location
-$umass_dartmouth_location
+$socoeco_location
 :price
-$sneef_price_network
+$socoeco_price
 :description
-Our annual summer networking event is a fixture of the entrepreneur's networking schedule in Southeastern Massachusetts. Join us for delicious food and lively networking with great people!
-<b>Please note that there is a fee for everyone, including members, at this event. Reservations needed by June 7th!</b>
+$socoeco_description
 :description

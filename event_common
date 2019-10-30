@@ -1,10 +1,205 @@
+new form. at the top is the event specific data which is used by the event
+specific structural data. yaa recursive templates
+----------------------------------------------------------------
 :event_month
-July
+October
 :event_month
 
 :event_year
 2019
 :event_year
+
+
+-------------------- BNT Events -----------------
+
+:bnt_skip
+no
+:bnt_skip
+:bnt_number
+106
+:bnt_number
+:bnt_day
+21
+:bnt_day
+:bnt_location
+$hult_international_location
+:bnt_location
+:bnt_title
+Boston New Technology Artificial Intelligence & IoT Startup Showcase #BNT$bnt_number $bnt_age
+:bnt_title
+:bnt_age
+:bnt_age
+:bnt_food
+Enjoy pizza, veggies, fruit, soda, juice & more
+:bnt_food
+
+:bnt_description
+$bnt_age See innovative and exciting local Artificial Intelligence & IoT
+Technology demos, presented by startup founders
+:bnt_description
+:bnt_special
+:bnt_special
+
+--------------------- CNET specific info ---------------
+:cnet_skip
+yes
+:cnet_skip
+:cnet_day
+7
+:cnet_day
+:cnet_location
+:cnet_location
+:cnet_title
+:cnet_title
+:cnet_description
+:cnet_description
+:cnet_special
+:cnet_special
+
+----------------- MDG specific info ------------------------------
+:mdg_skip
+no
+:mdg_skip
+:mdg_day
+2
+:mdg_day
+:mdg_location
+$regis_college_location
+:mdg_location
+:mdg_title
+Medical Device Product Development Design-for-Usability
+:mdg_title
+:mdg_description
+Design-for-usability is a critical aspect of medical device product
+development. More than a third of medical device incidents involve a use
+error and more than half of all device recalls for design problems involve
+the user interface. Because of this, the FDA has made medical device
+usability a key topic of concern and has issued guidance. User experience
+plays a vital role throughout the development process from early
+feasibility to validation to prevent these user errors from occurring.
+:mdg_description
+
+--------------------- MIN specific info ---------------
+:min_skip
+no
+:min_skip
+:min_number
+127
+:min_number
+:min_day
+7
+:min_day
+:min_location
+$district_hall_location
+:min_location
+:min_title
+Mass Innovation Nights $min_number
+:min_title
+:min_description
+It's October and you know what that means... WEBOS week, yay! We are, again,
+kicking off WEBOS week with our 6th Annual Women Founders event in District
+Hall. We will have more than
+10 incredible tech products from female founders showcasing at our event!
+Join us and do not miss out! Thank you to our sponsors that made this
+happen CohnReznick and Sapers & Wallack with supporting sponsor Intralinks
+:min_description
+
+:event_month
+October
+:event_month
+
+:event_year
+2019
+:event_year
+
+--------------------- socoeco specific info ---------------
+price changes from even to event, put different price templates here
+:socoeco_price_usual
+SoCoECo Member Free, General Attendee $$20,
+SoCoECo Alliance Partner Member $$15 (MDG, CCTC, ENET, etc.)
+:socoeco_price_usual
+
+:socoeco_price_network
+SoCoECo Member Free,
+SoCoECo Alliance Partner Member $$15 (MDG, CCTC, ENET, 128ICG, The Venture
+Forum, EntreTech Forum),
+Faculty, Student $$30,
+Nonmember $$20
+:socoeco_price_network
+
+:socoeco_skip
+no
+:socoeco_skip
+:socoeco_day
+10
+:socoeco_day
+:socoeco_location
+$umass_dartmouth_location
+:socoeco_location
+:socoeco_title
+Pitches that worked
+:socoeco_title
+:socoeco_price
+$socoeco_price_usual
+:socoeco
+:socoeco_description
+In October we're focusing on entrepreneurs that have successfully raised funds
+and the pitch that got them there. Confirmed speakers include:
+Sarah Athanas founder of GroundWork in New Bedford. Kevin Pelissier former
+CEO of Mayflower Botanicals
+:socoeco_description
+:socoeco_special
+:socoeco_special
+
+--------------------- vf specific info ---------------
+:vf_price_25
+Nonmember $$25, Student Advance Registration Required or $$5 Fee for Student
+Walk-ins. TVF Members & Sponsors RSVP by noon Monday prior to the event.
+:vf_price_25
+
+:vf_price_15
+Nonmember $$15, Student Advance Registration Required or $$5 Fee for Student
+Walk-ins. TVF Members & Sponsors RSVP by noon Monday prior to the event.
+:vf_price_15
+
+:vf_skip
+no
+:vf_skip
+:vf_day
+15
+:vf_day
+:vf_price
+$vf_price_15
+:vf_price
+:vf_location
+$wpi_campus_center_location
+:vf_location
+:vf_title
+Cutting Edge Surgical Innovations
+:vf_title
+:vf_description
+On October 15th our expert surgery panelists will amaze you with the advances
+in surgery they are leading. Advances in minimally invasive surgical techniques,
+new instruments such as laparoscopes, endoscopes and robots and
+new technologies like AI, virtual reality and personalized medicine have
+revolutionized the art, science, and business of surgery.
+Panelists will also be available to meet and
+greet attendees, so please bring your great questions! We’ll be there to help
+you find the answers.
+:vf_description
+:vf_special
+:vf_special
+
+:event_month
+October
+:event_month
+
+:event_year
+2019
+:event_year
+
+
+-------------------------------------
 
 :date
 $event_year $event_month $event_day
@@ -62,9 +257,9 @@ District Hall, 75 Northern Avenue, Boston, MA
 First Republic Bank, 160 Federal Street, Boston, MA
 :first_republic_bank
 
-:foley_hoag
+:foley_hoag_location
 Foley Hoag, LLP, 155 Seaport Blvd, Boston, MA
-:foley_hoag
+:foley_hoag_location
 
 :ggibc_location
 Greater Good Imperial Brewing Company, 55 Millbrook Street, Worcester, MA

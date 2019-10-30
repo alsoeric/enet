@@ -1,37 +1,31 @@
-not listing MIN at this time
 :skip
 no
 :skip
 :group_name
-Mass Innovation Nights
+Mass Innovation Nights $min_number
 :group_url
 https://mass.innovationnights.com/
 :gtla
 MIN
 :title
-Mass Innovation Nights #123
+Mass Innovation Nights #126
 :event_day
-13
+18
 :time_start
 $6pm
 :time_end
 $830pm
 :location
-$district_hall_location
+$umass_innovation_hub_location
 :price
 Free, RSVP Requested
 :description
-So excited to be back at District Hall with second time sponsor
-Boston Scientific. Thanks to Boston Scientific, Mass Innovation
-Nights #125 will feature more than 10 innovations focusing on
-medical and tech solutions for aging in place, pediatrics and
-the disabled population. Join us on TUESDAY,  August
-13th at 6pm for #MIN125 --  an evening of innovation in
-the Seaport District!
-<ul>
-<li>Check out the new PRODUCTS and</li>
-<li>RSVP to attend the event (free to attend and open to all)</li>
-<li>Help spread the word - blog, tweet (using the #MIN125 hashtag), like and post!</li>
-<li>Support local innovation -- network and have fun at the same time!</li>
-</ul>
+$mdg_description
+Check out the new PRODUCTS and
+VOTE for your favorites!
+RSVP to attend the event on $event_month $event_day (free to attend and open to all)
+See who else is planning on attending (click the ATTENDEES tab)
+Help spread the word - blog, tweet (using the #MIN$min_number hashtag), like and post!
+Support local innovation -- network and have fun at the same time!
+
 :description

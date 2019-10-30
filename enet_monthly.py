@@ -22,17 +22,18 @@ nonevent_dict = {}
 
 for event_filename in events:
     template_dict = rTemplate.colon_parser(event_filename, starter_dict=common_dict, EOL=False)
-    #print(template_dict["gtla"])
+    #print(template_dict["event_day"], template_dict["bnt_day"])
     event_key_template = "$event_year $event_month $event_day $time_start"
     #time_template="$time_start - $time_end"
     event_key_expanded = rTemplate.quick_rt(event_key_template,template_dict)
-    #print(event_key)
+    skip_expanded = rTemplate.quick_rt("$skip",template_dict)
+    #print(event_key_expanded, skip_expanded)
 
     tstruct = time.strptime(event_key_expanded,"%Y %B %d %I:%M %p")
     event_key = time.strftime("%Y-%m-%d-%H", tstruct) + template_dict["gtla"]
-    if template_dict["skip"] == "no":
+    if skip_expanded == "no":
         event_dict[event_key] = template_dict.copy()
-    elif template_dict["skip"] == "yes":
+    elif skip_expanded == "yes":
         nonevent_dict[event_key] = template_dict.copy()
 
 import sys
