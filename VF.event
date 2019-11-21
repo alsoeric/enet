@@ -11,21 +11,15 @@ VF
 :title
 $vf_title
 :event_day
-10
+$vf_day
 :time_start
-$6pm
+$530pm
 :time_end
 $8pm
 :location
-$wpi_campus_center_location
+$vf_location
 :price
 $vf_price
 :description
-Culture, creativity and connectivity are the heartbeat and soul of all great
-entrepreneurial ecosystems. The Venture Forum has facilitated all of those
-for nearly 30 years. Join our dedicated sponsors, members and speakers and
-help spark entrepreneurship and innovation in one of the hottest ecosystems
-in the Northeast! How? Start by attending the September 10, 2019 kickoff
-event, Understanding Private and Public Funding Sources.
-</p>
+$vf_description
 :description

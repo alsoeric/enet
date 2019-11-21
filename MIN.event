@@ -10,7 +10,7 @@ MIN
 :title
 Mass Innovation Nights #126
 :event_day
-18
+$min_day
 :time_start
 $6pm
 :time_end

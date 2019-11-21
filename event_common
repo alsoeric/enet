@@ -2,7 +2,7 @@ new form. at the top is the event specific data which is used by the event
 specific structural data. yaa recursive templates
 ----------------------------------------------------------------
 :event_month
-October
+November
 :event_month
 
 :event_year
@@ -16,16 +16,16 @@ October
 no
 :bnt_skip
 :bnt_number
-106
+107
 :bnt_number
 :bnt_day
-21
+18
 :bnt_day
 :bnt_location
-$hult_international_location
+$microsoft_burlington_location
 :bnt_location
 :bnt_title
-Boston New Technology Artificial Intelligence & IoT Startup Showcase #BNT$bnt_number $bnt_age
+Boston New Technology Mobile Apps Startup Showcase #BNT$bnt_number $bnt_age
 :bnt_title
 :bnt_age
 :bnt_age
@@ -34,31 +34,34 @@ Enjoy pizza, veggies, fruit, soda, juice & more
 :bnt_food
 
 :bnt_description
-$bnt_age See innovative and exciting local Artificial Intelligence & IoT
-Technology demos, presented by startup founders
+$bnt_age See innovative and exciting local Mobile App demos, presented by startup founders
 :bnt_description
 :bnt_special
 :bnt_special
 
 --------------------- CNET specific info ---------------
 :cnet_skip
-yes
+no
 :cnet_skip
 :cnet_day
-7
+19
 :cnet_day
 :cnet_location
+$constant_contact_location
 :cnet_location
 :cnet_title
+CNET Election
 :cnet_title
 :cnet_description
+The election of officers for calendar 2020 for the IEEE Consultants Network,
+Boston Section, will be held Tuesday, November 19, 2019
 :cnet_description
 :cnet_special
 :cnet_special
 
 ----------------- MDG specific info ------------------------------
 :mdg_skip
-no
+yes
 :mdg_skip
 :mdg_day
 2
@@ -84,33 +87,24 @@ feasibility to validation to prevent these user errors from occurring.
 no
 :min_skip
 :min_number
-127
+128
 :min_number
 :min_day
-7
+20
 :min_day
 :min_location
-$district_hall_location
+$tcan_location
 :min_location
 :min_title
 Mass Innovation Nights $min_number
 :min_title
 :min_description
-It's October and you know what that means... WEBOS week, yay! We are, again,
-kicking off WEBOS week with our 6th Annual Women Founders event in District
-Hall. We will have more than
-10 incredible tech products from female founders showcasing at our event!
-Join us and do not miss out! Thank you to our sponsors that made this
-happen CohnReznick and Sapers & Wallack with supporting sponsor Intralinks
+So great to be back in Natick with 10 local products showcasing at #MIN128 at
+TCAN. Thanks to our sponsors Middlesex Savings Bank & MutualOne Bank with
+partners Natick Center Cultural District & Town of Natick/Economic
+Development Committee for supporting local innovation and making this
+event possible. Join us for a fun and inspiring night of innovation.
 :min_description
-
-:event_month
-October
-:event_month
-
-:event_year
-2019
-:event_year
 
 --------------------- socoeco specific info ---------------
 price changes from even to event, put different price templates here
@@ -131,22 +125,26 @@ Nonmember $$20
 no
 :socoeco_skip
 :socoeco_day
-10
+13
 :socoeco_day
 :socoeco_location
 $umass_dartmouth_location
 :socoeco_location
 :socoeco_title
-Pitches that worked
+Piranaha Pond 2019
 :socoeco_title
 :socoeco_price
 $socoeco_price_usual
 :socoeco
 :socoeco_description
-In October we're focusing on entrepreneurs that have successfully raised funds
-and the pitch that got them there. Confirmed speakers include:
-Sarah Athanas founder of GroundWork in New Bedford. Kevin Pelissier former
-CEO of Mayflower Botanicals
+Piranha Pond, modeled after the popular television show “Shark Tank”, is a
+pitch contest for early stage companies.  This year, for the first time, the
+best pitch will win over $10,000 in cash and in-kind services.  Entrepreneurs
+will pitch for 5 minutes, and a panel of angel investors will determine the
+most compelling pitch.  There will also be an audience favorite award. The
+ideal company will be technology oriented, beyond the idea stage, have
+the potential to be a scale company, and will have raised funds from
+friends/family or grants such as SBIR’s or state agencies.
 :socoeco_description
 :socoeco_special
 :socoeco_special
@@ -159,14 +157,14 @@ Walk-ins. TVF Members & Sponsors RSVP by noon Monday prior to the event.
 
 :vf_price_15
 Nonmember $$15, Student Advance Registration Required or $$5 Fee for Student
-Walk-ins. TVF Members & Sponsors RSVP by noon Monday prior to the event.
+Walk-ins,TVF Members & Sponsors RSVP by noon Monday prior to the event.
 :vf_price_15
 
 :vf_skip
 no
 :vf_skip
 :vf_day
-15
+12
 :vf_day
 :vf_price
 $vf_price_15
@@ -175,28 +173,16 @@ $vf_price_15
 $wpi_campus_center_location
 :vf_location
 :vf_title
-Cutting Edge Surgical Innovations
+Entrepreneur Toolkit: Employment Law and Labor Taxes Plus Entrepreneur Organization Trade Show
 :vf_title
 :vf_description
-On October 15th our expert surgery panelists will amaze you with the advances
-in surgery they are leading. Advances in minimally invasive surgical techniques,
-new instruments such as laparoscopes, endoscopes and robots and
-new technologies like AI, virtual reality and personalized medicine have
-revolutionized the art, science, and business of surgery.
-Panelists will also be available to meet and
-greet attendees, so please bring your great questions! We’ll be there to help
-you find the answers.
+Join us and learn many details to manage your employment responsibilities
+related to employment law and the necessary employment taxes for small
+businesses. Discover and get acquainted with local organizations set up
+to help entrepreneurial businesses in our showcase of support Organizations.
 :vf_description
 :vf_special
 :vf_special
-
-:event_month
-October
-:event_month
-
-:event_year
-2019
-:event_year
 
 
 -------------------------------------
@@ -277,6 +263,10 @@ Lawrence Partnership, 46 Stafford Street, Lawrence, MA
 Mendix, 22 Boston Wharf Rd, Boston, MA
 :mendix_location
 
+:microsoft_burlington_location
+Microsoft Technology Center, 5 Wayside Road, Burlington, MA
+:microsoft_burlington_location
+
 :ms_location
 Microsoft Store, 75 Middlesex Turnpike, Burlington, MA
 :ms_location
@@ -296,6 +286,11 @@ Dassault Systemes / Solidworks, 185 Wyman St, Waltham, MA
 :umass_dartmouth_location
 UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St., Fall River, MA
 :umass_dartmouth_location
+
+:tcan_location
+The Center for Arts in Natick (TCAN), 14 Summer Street, Natick, MA
+:tcan_location
+
 
 :charlton_cob_location
 Charlton College of Business, 285 Old Westport Rd, North Dartmouth, MA (Parking Lot 14)
