@@ -2,11 +2,11 @@ new form. at the top is the event specific data which is used by the event
 specific structural data. yaa recursive templates
 ----------------------------------------------------------------
 :event_month
-December
+January
 :event_month
 
 :event_year
-2019
+2020
 :event_year
 
 
@@ -16,30 +16,31 @@ December
 no
 :bnt_skip
 :bnt_number
-108
+109
 :bnt_number
 :bnt_day
-9
+13
 :bnt_day
 :bnt_location
-$foley_hoag_location
+$ptc_location
 :bnt_location
 :bnt_title
-Boston New Technology HelathTech Startup Showcase
+Boston New Technology Augmented & Virtual Reality Startup Showcase
 :bnt_title
+
+age is going to be nothing or (21+)
 :bnt_age
-(21+)
 :bnt_age
 :bnt_food
 Enjoy beer, wine and more.
 :bnt_food
 
 :bnt_description
-See 6 innovative and exciting local HealthTech demos, presented by startup founders
+Learn about the latest AR and IoT tech from PTC's experts.
+See 6 innovative and exciting local AR & VR tech demos, presented by startup founders.
 :bnt_description
 :bnt_special
-Free tickets for startups and Investment Firms! See ticket page for details.
-If you can't attend this event in person, watch our livestream on Introvoke at 7 pm!
+If you cannot/could not attend in person, look for our livestream on Introvoke at 7:05 pm on event night!
 :bnt_special
 
 --------------------- CNET specific info ---------------
@@ -67,20 +68,16 @@ Boston Section, will be held Tuesday, November 19, 2019
 no
 :mdg_skip
 :mdg_day
-4
+8
 :mdg_day
 :mdg_location
-$foley_hoag_location
+$regis_college_location
 :mdg_location
 :mdg_title
-Cutting Edge Advances in Auditory Device Therapies
+Software as a Medical Device (SaMD)
 :mdg_title
 :mdg_description
-Hearing loss presents a growing public health problem due to aging, disease, and noise, with the latter disproportionally affecting the young. Overall, ~15% of the global population is affected across all age groups, leading to direct and indirect costs of untreated hearing loss totaling $$750 billion.
-
-The diverse needs and challenges of the various auditory diseases have been benefiting from advances in implantable devices, drug development and delivery, and regenerative therapies.
-
-Each area has its unique opportunities and challenges and many of the exciting opportunities exist at the intersections of disciplines requiring a broad understanding of the field.
+Join Us for a Discussion on of current trends in Software as a Medical Device (SaMD) including technological advances, regulatory challenges, and intellectual property strategies.
 :mdg_description
 
 --------------------- MIN specific info ---------------
@@ -88,19 +85,25 @@ Each area has its unique opportunities and challenges and many of the exciting o
 no
 :min_skip
 :min_number
-129
+130
 :min_number
 :min_day
-10
+15
 :min_day
 :min_location
-$verizon_alley_location
+$workbar_downtown_location
 :min_location
 :min_title
 Mass Innovation Nights $min_number
 :min_title
 :min_description
-Emerging Healthcare Technology is the focus of our December Mass Innovation Nights $min_number.  Join us at Alley Powered By Verizon in Cambridge on December 10th at 6pm for an evening of showcasing, networking and pitches! Verizon 5G Lab is the sponsor for this event.  You will not want to miss #$min_number!
+Join us at Workbar - Downtown on January 15th at 6pm for a special Mass
+Innovation Nights event focusing on the stories of successful MIN alumni
+(who ALL just happen to be women). They will share the insights they've
+accumulated since they launched with us and re-connect with the MIN
+community through a panel and break-out sessions. Mass Innovation Nights #130
+is in partnership with Innovation Women and will be an evening of networking
+and learning about entrepreneurship! You will not want to miss #MIN130!
 :min_description
 
 --------------------- socoeco specific info ---------------
@@ -119,7 +122,7 @@ Nonmember $$20
 :socoeco_price_network
 
 :socoeco_skip
-no
+yes
 :socoeco_skip
 :socoeco_day
 12
@@ -135,7 +138,7 @@ $socoeco_price_usual
 :socoeco
 :socoeco_description
 18 MINUTES OF IMPACT: Moving from delivering information to engaging your audience.
-This topic is designed for decision-makers, C-level executives, sales teams, and entrepreneurs. Participants will learn a step-by-step framework that will help them create presentations that engage and move their audiences to action. They will understand that every time they are in front of an audience they are responsible for an EMOTIONAL experience, and they will learn how to craft the message AND the experience into a seamless talk that uses both relevant storytelling, data, and case studies. 
+This topic is designed for decision-makers, C-level executives, sales teams, and entrepreneurs. Participants will learn a step-by-step framework that will help them create presentations that engage and move their audiences to action. They will understand that every time they are in front of an audience they are responsible for an EMOTIONAL experience, and they will learn how to craft the message AND the experience into a seamless talk that uses both relevant storytelling, data, and case studies.
 :socoeco_description
 :socoeco_special
 :socoeco_special
@@ -222,6 +225,10 @@ $event_year $event_month $event_day
 Brandeis University Faculty Club, 415 South Street, Waltham, MA
 :Brandeis_faculty_club_location
 
+:charlton_cob_location
+Charlton College of Business, 285 Old Westport Rd, North Dartmouth, MA (Parking Lot 14)
+:charlton_cob_location
+
 :constant_contact_location
 Constant Contact, Great Room South, 1601 Trapelo Road, Waltham, MA
 :constant_contact_location
@@ -241,6 +248,10 @@ Foley Hoag, LLP, 155 Seaport Blvd, Boston, MA
 :ggibc_location
 Greater Good Imperial Brewing Company, 55 Millbrook Street, Worcester, MA
 :ggibc_location
+
+:hult_international_location
+Hult International Business School, 1 Education Street, Cambridge, MA
+:hult_international_location
 
 :jobcase_location
 JobeCase Suite 7, 201 Broadway, Cambridge, MA
@@ -266,6 +277,14 @@ Microsoft Store, 75 Middlesex Turnpike, Burlington, MA
 Microsoft NERD Center, 1 Memorial Drive, Cambridge, MA
 :ms_nerd_location
 
+:nmf_location
+Nutter McClennen &amp; Fish LLP, 155 Seaport Blvd, Boston, MA
+:nmf_location
+
+:ptc_location
+PTC, 121 Seaport Blvd, Boston, MA
+:ptc_location
+
 :regis_college_location
 Regis College, Fine Arts Center, 235 Wellesley St, Weston, MA
 :regis_college_location
@@ -274,18 +293,17 @@ Regis College, Fine Arts Center, 235 Wellesley St, Weston, MA
 Dassault Systemes / Solidworks, 185 Wyman St, Waltham, MA
 :solidworks_location
 
-:umass_dartmouth_location
-UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St., Fall River, MA
-:umass_dartmouth_location
-
 :tcan_location
 The Center for Arts in Natick (TCAN), 14 Summer Street, Natick, MA
 :tcan_location
 
+:thelma_burns_location
+Thelma D. Burns Building, 575 Warren Street, Dorchester, MA
+:thelma_burns_location
 
-:charlton_cob_location
-Charlton College of Business, 285 Old Westport Rd, North Dartmouth, MA (Parking Lot 14)
-:charlton_cob_location
+:umass_dartmouth_location
+UMass Dartmouth Center for Innovation and Entrepreneurship, 151 Martine St., Fall River, MA
+:umass_dartmouth_location
 
 :umass_innovation_hub_location
  UMass Lowell's Innovation Hub, 110 Canal Street, Lowell, MA
@@ -295,21 +313,13 @@ Charlton College of Business, 285 Old Westport Rd, North Dartmouth, MA (Parking 
 Worcester CleanTech Incubator (WCTI), 44 Portland Street, Worcester, MA
 :wcti_location
 
-:nmf_location
-Nutter McClennen &amp; Fish LLP, 155 Seaport Blvd, Boston, MA
-:nmf_location
+workbar_downtown_location:
+Workbar, 24 School Street, 2nd Floor, Boston, MA
+workbar_downtown_location:
 
 :wpi_campus_center_location
 Rubin Campus Center, 100 Institute Road, Worcester, MA
 :wpi_campus_center_location
-
-:thelma_burns_location
-Thelma D. Burns Building, 575 Warren Street, Dorchester, MA
-:thelma_burns_location
-
-:hult_international_location
-Hult International Business School, 1 Education Street, Cambridge, MA
-:hult_international_location
 
 :verizon_alley_location
 10 Ware Street, Cambridge, MA
