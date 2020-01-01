@@ -18,7 +18,7 @@ $$15 (Price increases to $$30 during last 48 hours) or save on tickets and enjoy
 exclusive benefits with a <a href="$bnt_vip">BNT VIP Membership</a>. For all
 ticket options, visit <a href="$bnt_eventbright">Eventbrite</a>.
 :title
-$bnt_title
+$bnt_title #BNT$bnt_number $bnt_age
 :title
 :event_day
 $bnt_day
@@ -31,7 +31,7 @@ $bnt_location
 :price
 $bnt_price
 :description
-$bnt_description
+$bnt_age $bnt_description
 Each company presents an overview and demonstration of their product within 5
 minutes and discusses questions with the audience. Please follow @BostonNewTech
 and support our startups by posting on social media using our #BNT$bnt_number hashtag.

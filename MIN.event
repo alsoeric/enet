@@ -2,13 +2,13 @@
 no
 :skip
 :group_name
-Mass Innovation Nights $min_number
+Mass Innovation Nights
 :group_url
 https://mass.innovationnights.com/
 :gtla
 MIN
 :title
-Mass Innovation Nights #126
+Mass Innovation Nights #$min_number
 :event_day
 $min_day
 :time_start
@@ -16,7 +16,7 @@ $6pm
 :time_end
 $830pm
 :location
-$umass_innovation_hub_location
+$mdg_location
 :price
 Free, RSVP Requested
 :description
@@ -27,5 +27,4 @@ RSVP to attend the event on $event_month $event_day (free to attend and open to 
 See who else is planning on attending (click the ATTENDEES tab)
 Help spread the word - blog, tweet (using the #MIN$min_number hashtag), like and post!
 Support local innovation -- network and have fun at the same time!
-
 :description
